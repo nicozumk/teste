@@ -1,0 +1,10 @@
+create database bd_github;
+use bd_github;
+
+create table cliete(
+id_cliente int not null auto_increment,
+nome varchar(30),
+sexo varchar (1),
+data_nascimento date,
+primary key (id_cliente)
+)default charset =utf8
